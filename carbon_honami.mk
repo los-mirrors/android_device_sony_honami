@@ -2,7 +2,7 @@
 $(call inherit-product, vendor/carbon/config/common.mk)
 
 # Inherit Carbon GSM telephony parts
- $(call inherit-product, vendor/carbon/config/gsm.mk)
+$(call inherit-product, vendor/carbon/config/gsm.mk)
 $(call inherit-product, device/sony/honami/full_honami.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=C6903
